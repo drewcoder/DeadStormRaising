@@ -29,6 +29,12 @@
 		C5BB6430275C0BE900C5B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F5275C0BE900C5B97C /* Assets.xcassets */; };
 		C5BB643E275C0C3400C5B97C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB643D275C0C3400C5B97C /* GameController.framework */; };
 		C5BB6441275C0C4700C5B97C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB6440275C0C4700C5B97C /* GameController.framework */; };
+		C5D32657275C17DB00749281 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5D32656275C17DB00749281 /* README.md */; };
+		C5D32658275C17DB00749281 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5D32656275C17DB00749281 /* README.md */; };
+		C5D32659275C17DB00749281 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C5D32656275C17DB00749281 /* README.md */; };
+		C5D3265B275C1BF700749281 /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5D3265A275C1BF700749281 /* TileSet.sks */; };
+		C5D3265C275C1BF700749281 /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5D3265A275C1BF700749281 /* TileSet.sks */; };
+		C5D3265D275C1BF700749281 /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5D3265A275C1BF700749281 /* TileSet.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +60,8 @@
 		C5BB643F275C0C3400C5B97C /* DeadStormRaising-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DeadStormRaising-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C5BB6440275C0C4700C5B97C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS15.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		C5BB6442275C0C4700C5B97C /* DeadStormRaising-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DeadStormRaising-tvOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C5D32656275C17DB00749281 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		C5D3265A275C1BF700749281 /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,9 @@
 			children = (
 				C5BB63F3275C0BE800C5B97C /* GameScene.sks */,
 				C5BB63F4275C0BE800C5B97C /* GameScene.swift */,
+				C5D32656275C17DB00749281 /* README.md */,
 				C5BB63F5275C0BE900C5B97C /* Assets.xcassets */,
+				C5D3265A275C1BF700749281 /* TileSet.sks */,
 			);
 			path = "DeadStormRaising Shared";
 			sourceTree = "<group>";
@@ -259,8 +269,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D3265B275C1BF700749281 /* TileSet.sks in Resources */,
 				C5BB6428275C0BE900C5B97C /* GameScene.sks in Resources */,
 				C5BB6403275C0BE900C5B97C /* Main.storyboard in Resources */,
+				C5D32657275C17DB00749281 /* README.md in Resources */,
 				C5BB6406275C0BE900C5B97C /* LaunchScreen.storyboard in Resources */,
 				C5BB642E275C0BE900C5B97C /* Assets.xcassets in Resources */,
 			);
@@ -270,8 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D3265C275C1BF700749281 /* TileSet.sks in Resources */,
 				C5BB6429275C0BE900C5B97C /* GameScene.sks in Resources */,
 				C5BB6413275C0BE900C5B97C /* Main.storyboard in Resources */,
+				C5D32658275C17DB00749281 /* README.md in Resources */,
 				C5BB6416275C0BE900C5B97C /* LaunchScreen.storyboard in Resources */,
 				C5BB642F275C0BE900C5B97C /* Assets.xcassets in Resources */,
 			);
@@ -283,7 +297,9 @@
 			files = (
 				C5BB6423275C0BE900C5B97C /* Main.storyboard in Resources */,
 				C5BB642A275C0BE900C5B97C /* GameScene.sks in Resources */,
+				C5D32659275C17DB00749281 /* README.md in Resources */,
 				C5BB6430275C0BE900C5B97C /* Assets.xcassets in Resources */,
+				C5D3265D275C1BF700749281 /* TileSet.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
