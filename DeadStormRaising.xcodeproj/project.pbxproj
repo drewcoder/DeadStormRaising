@@ -18,9 +18,6 @@
 		C5BB641E275C0BE900C5B97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB641D275C0BE900C5B97C /* AppDelegate.swift */; };
 		C5BB6420275C0BE900C5B97C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB641F275C0BE900C5B97C /* GameViewController.swift */; };
 		C5BB6423275C0BE900C5B97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BB6421275C0BE900C5B97C /* Main.storyboard */; };
-		C5BB6425275C0BE900C5B97C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F2275C0BE800C5B97C /* Actions.sks */; };
-		C5BB6426275C0BE900C5B97C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F2275C0BE800C5B97C /* Actions.sks */; };
-		C5BB6427275C0BE900C5B97C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F2275C0BE800C5B97C /* Actions.sks */; };
 		C5BB6428275C0BE900C5B97C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F3275C0BE800C5B97C /* GameScene.sks */; };
 		C5BB6429275C0BE900C5B97C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F3275C0BE800C5B97C /* GameScene.sks */; };
 		C5BB642A275C0BE900C5B97C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F3275C0BE800C5B97C /* GameScene.sks */; };
@@ -30,10 +27,11 @@
 		C5BB642E275C0BE900C5B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F5275C0BE900C5B97C /* Assets.xcassets */; };
 		C5BB642F275C0BE900C5B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F5275C0BE900C5B97C /* Assets.xcassets */; };
 		C5BB6430275C0BE900C5B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63F5275C0BE900C5B97C /* Assets.xcassets */; };
+		C5BB643E275C0C3400C5B97C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB643D275C0C3400C5B97C /* GameController.framework */; };
+		C5BB6441275C0C4700C5B97C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5BB6440275C0C4700C5B97C /* GameController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5BB63F2275C0BE800C5B97C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C5BB63F3275C0BE800C5B97C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C5BB63F4275C0BE800C5B97C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C5BB63F5275C0BE900C5B97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +50,10 @@
 		C5BB641F275C0BE900C5B97C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C5BB6422275C0BE900C5B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5BB6424275C0BE900C5B97C /* DeadStormRaising_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeadStormRaising_macOS.entitlements; sourceTree = "<group>"; };
+		C5BB643D275C0C3400C5B97C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		C5BB643F275C0C3400C5B97C /* DeadStormRaising-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DeadStormRaising-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C5BB6440275C0C4700C5B97C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS15.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
+		C5BB6442275C0C4700C5B97C /* DeadStormRaising-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DeadStormRaising-tvOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BB643E275C0C3400C5B97C /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BB6441275C0C4700C5B97C /* GameController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,13 +91,13 @@
 				C5BB640C275C0BE900C5B97C /* DeadStormRaising tvOS */,
 				C5BB641C275C0BE900C5B97C /* DeadStormRaising macOS */,
 				C5BB63FB275C0BE900C5B97C /* Products */,
+				C5BB643C275C0C3400C5B97C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C5BB63F1275C0BE800C5B97C /* DeadStormRaising Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C5BB63F2275C0BE800C5B97C /* Actions.sks */,
 				C5BB63F3275C0BE800C5B97C /* GameScene.sks */,
 				C5BB63F4275C0BE800C5B97C /* GameScene.swift */,
 				C5BB63F5275C0BE900C5B97C /* Assets.xcassets */,
@@ -114,6 +118,7 @@
 		C5BB63FC275C0BE900C5B97C /* DeadStormRaising iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C5BB643F275C0C3400C5B97C /* DeadStormRaising-iOS-Info.plist */,
 				C5BB63FD275C0BE900C5B97C /* AppDelegate.swift */,
 				C5BB63FF275C0BE900C5B97C /* GameViewController.swift */,
 				C5BB6401275C0BE900C5B97C /* Main.storyboard */,
@@ -125,6 +130,7 @@
 		C5BB640C275C0BE900C5B97C /* DeadStormRaising tvOS */ = {
 			isa = PBXGroup;
 			children = (
+				C5BB6442275C0C4700C5B97C /* DeadStormRaising-tvOS-Info.plist */,
 				C5BB640D275C0BE900C5B97C /* AppDelegate.swift */,
 				C5BB640F275C0BE900C5B97C /* GameViewController.swift */,
 				C5BB6411275C0BE900C5B97C /* Main.storyboard */,
@@ -142,6 +148,15 @@
 				C5BB6424275C0BE900C5B97C /* DeadStormRaising_macOS.entitlements */,
 			);
 			path = "DeadStormRaising macOS";
+			sourceTree = "<group>";
+		};
+		C5BB643C275C0C3400C5B97C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5BB6440275C0C4700C5B97C /* GameController.framework */,
+				C5BB643D275C0C3400C5B97C /* GameController.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +261,6 @@
 			files = (
 				C5BB6428275C0BE900C5B97C /* GameScene.sks in Resources */,
 				C5BB6403275C0BE900C5B97C /* Main.storyboard in Resources */,
-				C5BB6425275C0BE900C5B97C /* Actions.sks in Resources */,
 				C5BB6406275C0BE900C5B97C /* LaunchScreen.storyboard in Resources */,
 				C5BB642E275C0BE900C5B97C /* Assets.xcassets in Resources */,
 			);
@@ -258,7 +272,6 @@
 			files = (
 				C5BB6429275C0BE900C5B97C /* GameScene.sks in Resources */,
 				C5BB6413275C0BE900C5B97C /* Main.storyboard in Resources */,
-				C5BB6426275C0BE900C5B97C /* Actions.sks in Resources */,
 				C5BB6416275C0BE900C5B97C /* LaunchScreen.storyboard in Resources */,
 				C5BB642F275C0BE900C5B97C /* Assets.xcassets in Resources */,
 			);
@@ -271,7 +284,6 @@
 				C5BB6423275C0BE900C5B97C /* Main.storyboard in Resources */,
 				C5BB642A275C0BE900C5B97C /* GameScene.sks in Resources */,
 				C5BB6430275C0BE900C5B97C /* Assets.xcassets in Resources */,
-				C5BB6427275C0BE900C5B97C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,11 +486,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DeadStormRaising-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -491,7 +505,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -504,11 +518,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DeadStormRaising-iOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,7 +537,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -535,6 +551,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DeadStormRaising-tvOS-Info.plist";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -562,6 +579,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DeadStormRaising-tvOS-Info.plist";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -593,6 +611,7 @@
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -622,6 +641,7 @@
 				DEVELOPMENT_TEAM = YQR2E4PRF4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.action-games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
